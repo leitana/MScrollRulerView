@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollRulerView">
+        <attr name="small_line_height" format="dimension"/>
+        <attr name="long_line_height" format="dimension"/>
+        <attr name="line_color" format="color"/>
+        <attr name="line_gap" format="dimension"/> // 刻度线间距
+        <attr name="line_width" format="dimension"/>
+        <attr name="scale_text_color" format="color"/> //刻度文字颜色
+        <attr name="scale_text_size" format="dimension"/>
+        <attr name="value_text_color" format="color"/>
+        <attr name="value_text_size" format="dimension"/>
+        <attr name="unit" format="string"/>// 单位
+        <attr name="start_num" format="integer"/>
+        <attr name="end_num" format="integer"/>
+    </declare-styleable>
+</resources>
