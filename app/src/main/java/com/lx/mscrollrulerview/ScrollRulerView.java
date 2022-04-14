@@ -272,7 +272,7 @@ public class ScrollRulerView extends View {
         value = startNum * 10  + gapCount;
 
         if (value != lastValue && listener != null) {
-            listener.onValueChanged(value);
+            listener.onValueChanged(value / 10);
         }
         lastValue = value;
         return value / 10;

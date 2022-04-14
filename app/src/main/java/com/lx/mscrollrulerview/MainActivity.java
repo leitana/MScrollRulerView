@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         rulerView.setOnValueChangedListener(new ScrollRulerView.OnValueChangedListener() {
             @Override
             public void onValueChanged(float value) {
-                if (value % 10 == 0.0) {
+                if (value * 10 % 10 == 0.0) {
                     vibrator.vibrate(10);
                 } else {
                     vibrator.vibrate(5);
